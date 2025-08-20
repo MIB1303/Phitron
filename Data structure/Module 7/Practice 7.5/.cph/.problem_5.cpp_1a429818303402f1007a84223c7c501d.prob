@@ -1,0 +1,1 @@
+{"name":"Local: problem_5","url":"d:\\Phitron\\Data structure\\Module 7\\Practice 7.5\\problem_5.cpp","tests":[{"id":1754751211176,"input":"1 4 5 2 7 -1","output":"7 5 4 2 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron\\Data structure\\Module 7\\Practice 7.5\\problem_5.cpp","group":"local","local":true}
