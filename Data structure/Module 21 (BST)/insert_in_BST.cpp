@@ -59,7 +59,24 @@ Node *input_bynary_tree()
 
 void insert(Node* &root ,int val)
 {
-
+    if (root == NULL)
+        root = new Node(val);
+    if (root->val > val)
+    {
+        if (root->left == NULL)
+        {
+            root->left = new Node(val);
+        }
+        else 
+            insert(root->left,val);
+    }
+    else 
+    {
+        if (root->right == NULL)
+            root->right = new Node(val);
+        else 
+        insert(root->right,val);
+    }
 }
 
 
@@ -92,4 +109,5 @@ int main()
     cin >> n;
    
     insert(root , n);
+    level_order_print(root);
 }
