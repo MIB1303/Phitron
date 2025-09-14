@@ -11,19 +11,31 @@ bool valid(int i, int j)
     else
         return true;
 }
-void dfs(int si, int sj)
+void bfs(int si, int sj)
 {
-    // dfs code
-    cout << si << " " << sj << endl;
+    // bfs code
+    queue<pair<int, int>> q;
+    q.push({si, sj});
     vis[si][sj] = true;
-    for (int i = 0; i < 4; i++)
+    while (!q.empty())
     {
-        int ci, cj;
-        ci = si + d[i].first;
-        cj = sj + d[i].second;
-        if (valid(ci, cj) == true && !vis[ci][cj])
+        pair<int, int> par = q.front();
+        q.pop();
+        int par_i = par.first;
+        int par_j = par.second;
+
+        cout << par_i << " " << par_j << endl;
+
+        for (int i = 0; i < 4; i++)
         {
-            dfs(ci, cj);
+            int ci = par_i + d[i].first;
+            int cj = par_j + d[i].second;
+            if (valid(ci, cj) && !vis[ci][cj])
+            {
+                q.push({ci, cj});
+                vis[ci][cj] = true;
+                
+            }
         }
     }
 }
@@ -41,6 +53,6 @@ int main()
     int si, sj;
     cin >> si >> sj;
     memset(vis, false, sizeof(vis));
-    dfs(si, sj);
+    bfs(si, sj);
     return 0;
 }
