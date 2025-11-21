@@ -1,0 +1,1 @@
+{"name":"Local: disting_number","url":"d:\\Contest\\CSES\\problem\\disting_number.cpp","tests":[{"id":1758092437152,"input":"10\n1 2 7 96 543 456 1 2 7 10","output":"7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Contest\\CSES\\problem\\disting_number.cpp","group":"local","local":true}
