@@ -1,72 +1,69 @@
-# 🚀 Phitron Programming Repository
+# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"> Welcome to My Coding Vault
 
-Welcome to my programming repository!
+> **"Code. Debug. Learn. Repeat."**
 
-This repository contains my coding journey, including problem-solving, algorithms, data structures, and practice codes.
-
-## 📂 Folder Structure
-
-- 📁 Algorithm
-  - Sorting
-  - Searching
-  - Graph
-  - DP
-  - Greedy
-  - etc.
-
-- 📁 Data Structure
-  - Array
-  - Linked List
-  - Stack
-  - Queue
-  - Tree
-  - Heap
-  - etc.
-
-- 📁 My Coding
-  - CSES Solutions
-  - Codeforces Solutions
-  - LeetCode
-  - Practice Problems
-
-- 📁 My Coding 2
-  - Additional Practice
-
-- 📁 Road to XPSC
-  - Contest Preparation
-  - Practice Codes
+This repository is a collection of everything I build and learn throughout my programming journey. From basic data structures to advanced algorithms and competitive programming solutions—every commit represents progress.
 
 ---
 
-## 💻 Language
+## 📚 What's Inside?
+
+```
+📂 Algorithm
+   ├── Sorting
+   ├── Binary Search
+   ├── Graph
+   ├── Dynamic Programming
+   └── Greedy
+
+📂 Data Structure
+   ├── Array
+   ├── Linked List
+   ├── Stack
+   ├── Queue
+   ├── Tree
+   └── Heap
+
+📂 My Coding
+   ├── CSES
+   ├── Codeforces
+   ├── LeetCode
+   └── Practice
+
+📂 Road to XPSC
+   └── Contest Preparation
+```
+
+---
+
+## 🛠️ Tech Stack
 
 - C++
 - C
+- STL
+- GNU G++
 
 ---
 
-## 🎯 Goals
+## 🎯 Current Mission
 
-- Improve Problem Solving
-- Master Data Structures & Algorithms
-- Prepare for Competitive Programming
-- Solve 1000+ Problems
-
----
-
-## 🛠️ Platforms
-
-- Codeforces
-- CSES
-- LeetCode
-- AtCoder
-- HackerRank
-- VJudge
+- 🔥 Strengthen DSA fundamentals
+- 🚀 Solve more Competitive Programming problems
+- 🧠 Learn advanced algorithms
+- 🏆 Become a better problem solver every day
 
 ---
 
-## 📌 Author
+## 💡 Philosophy
 
-**Majharul Islam (Biplob)**
+> **"Every accepted solution starts with countless wrong answers."**
+
+---
+
+## 👨‍💻 About Me
+
+I'm **Majharul Islam (Biplob)**, a Computer Science student passionate about Competitive Programming and Software Development.
+
+If you find this repository useful, feel free to ⭐ star it.
 
 Happy Coding! 🚀
